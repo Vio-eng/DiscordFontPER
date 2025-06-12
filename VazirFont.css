@@ -1,14 +1,5 @@
-:root {
-  --font-primary: ".", "gg sans", "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif !important;
-  --font-display: ".", "gg sans", "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif !important;
-}
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap");
 
-@font-face {
-  font-family: ".";
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://github.com/rastikerdar/vazirmatn/blob/master/fonts/webfonts/Vazirmatn-Regular.woff2")
-    format("woff2");
+* {
+  font-family: "Vazirmatn", sans-serif !important;
 }
